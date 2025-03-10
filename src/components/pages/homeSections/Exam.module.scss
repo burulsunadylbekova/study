@@ -1,0 +1,142 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+.Exam {
+    .content {
+        h1 {
+            text-align: center;
+            font-weight: 500;
+            font-size: 48px;
+            line-height: 58.22px;
+        }
+
+        p {
+            font-family: "Montserrat", sans-serif;
+            text-align: center;
+            font-weight: 400;
+            font-size: 20px;
+            line-height: 24.38px;
+        }
+
+        .content_desk {
+            display: flex;
+            gap: 80px;
+        }
+
+        .information_desk {
+
+            margin-top: 50px;
+
+            .cambrige_exam {
+                width: 466px;
+                border-radius: 5%;
+                box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+
+                img {
+                    border-radius: 5% 5% 0 0;
+                }
+
+                .info {
+                    padding: 0 20px 30px 20px;
+
+                    h2 {
+                        font-weight: 600;
+                        font-size: 16px;
+                        line-height: 19.6px;
+                        color: #002AC0;
+                    }
+
+                    h3 {
+                        margin-top: 20px;
+                        color: #001254;
+                        font-family: "Montserrat", sans-serif;
+                        font-family: Montserrat;
+                        font-weight: 500;
+                        font-size: 18px;
+                        line-height: 25.5px;
+                    }
+
+                    p {
+                        margin: 20px 0 20px 0;
+                        font-family: "Montserrat", sans-serif;
+                        text-align: left;
+                        font-weight: 400;
+                        font-size: 12px;
+                        line-height: 14.63px;
+                    }
+
+                    a {
+                        margin-left: 30%;
+                        margin-right: 30%;
+                        font-family: "Montserrat", sans-serif;
+                        font-weight: 500;
+                        color: #1AA2EE;
+                        font-size: 14px;
+                        line-height: 17.07px;
+                    }
+                }
+            }
+        }
+
+        .information_block {
+            margin-top: 50px;
+            display: flex;
+            flex-direction: column;
+            gap: 30px;
+
+
+            .block_desk {
+                border: 1px solid #BBBBBB;
+                height: 170px;
+                padding: 20px;
+                border-radius: 10px;
+            }
+
+            .block {
+                display: flex;
+                align-items: center;
+                gap: 20px;
+
+                .block_info {
+                    h4 {
+                        background: #0075FF26;
+                        width: 50px;
+                        border-radius: 5px;
+                        padding: 4px 10px 4px 10px;
+                        font-weight: 400;
+                        font-size: 14px;
+                        line-height: 100%;
+                        text-transform: capitalize;
+                        color: #002AC0;
+                    }
+
+                    h2 {
+                        margin: 20px 0;
+                        font-family: "Montserrat", sans-serif;
+                        font-weight: 500;
+                        font-size: 18px;
+                        line-height: 100%;
+                        color: #001254;
+                    }
+
+                    p {
+                        font-family: "Montserrat", sans-serif;
+                        font-weight: 400;
+                        font-size: 12px;
+                        line-height: 100%;
+                        text-align: left;
+                        color: #010D39;
+                    }
+
+                    .iELTS{
+                        width: 60px;
+                    }
+
+                    .exams{
+                        width: 102px;
+                    }
+                }
+
+            }
+        }
+    }
+}
